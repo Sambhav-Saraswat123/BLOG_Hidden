@@ -1,0 +1,26 @@
+button {
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 50px;
+  &:hover {
+    background: firebrick;
+  }
+  transform: scale(150%);
+  transform-origin: 0 0;
+}
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0px;
+  background: linear-gradient(to right, hsl(54, 100%, 50%), limegreen);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

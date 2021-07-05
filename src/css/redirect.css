@@ -1,0 +1,30 @@
+button {
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 50px;
+  transform: scale(150%);
+  transform-origin: 0 0;
+}
+button:hover {
+  background: firebrick;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0px;
+  background: linear-gradient(to right, #ffe600, limegreen);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=redirect.css.map */
